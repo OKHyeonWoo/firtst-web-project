@@ -20,18 +20,64 @@
   <!-- 본문을 설명하는 부분-->
   <head>
     <title>내가 좋아하는 셀럽</title>
+
+    <style>
+      
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        margin-left: 30px;
+      }
+
+      h1{
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin: 0;
+        padding: 20px;
+      }
+      
+      #grid ol{
+         border-right: 1px solid gray;
+         font-size: 20px;
+         width: 100px;
+         margin: 0;
+         margin-left: 10px;
+         padding: 20px;
+         
+
+      
+      }
+      
+      a{
+        text-decoration: none;
+        color: hotpink;
+      }
+      .b{
+        color: black;
+      }
+
+      #iu{
+        padding-left: 30px;
+      }
+    </style>
+
+
+
   </head>
 
   <!-- 여기서부터는 본문-->
 <h1><a href="index.html">내가 좋아하는 연예인</a></h1>
 
   <body>
-    <ul>
-      <li><a href="iu.html">1. 아이유</a></li>
-      <li><a href="bts.html">2. BTS</a></li>
-      <li><a href="ji.html">3. 박지성</a></li>
-    </ul>
 
+    <div id="grid">
+    <ol>
+      <li><a href="iu.html" class="b"> 아이유</a></li>
+      <li><a href="bts.html" class="b"> BTS</a></li>
+      <li><a href="ji.html" class="b"> 박지성</a></li>
+    </ol>
+
+    <div id="iu">
     <h2>
       <a href="https://namu.wiki/w/%EC%95%84%EC%9D%B4%EC%9C%A0" target="_blank">첫번 째 셀럽 : IU</a>
     </h2>
@@ -42,6 +88,8 @@
 
   <p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Cxzzg7L3Xgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>>
+    </p>
+    </div>
+    </div>
   </body>
 </html>
